@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>TodoDo APP</h1>
+      <h1>App ToDo</h1>
       <TodoForm addTask={addTask} />
       <TodoList tasks={tasks} toggleTask={toggleTask} deleteTask={deleteTask} />
       <div className="stats">

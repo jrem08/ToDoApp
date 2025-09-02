@@ -10,7 +10,7 @@ function TodoItem({ task, toggleTask, deleteTask }) {
         onChange={() => toggleTask(task.id)}
       />
       {task.text}
-      <button onClick={() => deleteTask(task.id)}>Eliminar</button>
+      <button onClick={() => deleteTask(task.id)}>Eliminar tarea</button>
     </li>
   );
 }
