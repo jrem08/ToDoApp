@@ -42,7 +42,7 @@ Este proyecto fue creado como parte de una práctica técnica para fortalecer ha
 
 
 ### Clona el repositorio
-- git clone https://github.com/tu_usuario/todo-list-app.git
+- git clone https://github.com/jrem08/ToDoApp.git
 
 ### Entra al proyecto
 - cd todo-list-app
