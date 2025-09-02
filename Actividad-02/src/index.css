@@ -30,8 +30,8 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #2c3e50;
-  font-family: "Inter", sans-serif;
+  color: #0a0a0a;
+  font-family: 'fantasy', sans-serif;
   font-optical-sizing: auto;
   font-weight: weighter;
   font-style: normal;
@@ -66,7 +66,7 @@ input[type="text"]:focus {
 }
 
 button {
-  background-color: #0c721d;
+  background-color: #0acc2a;
   border: none;
   color: white;
   padding: 0.8rem 1.2rem;
