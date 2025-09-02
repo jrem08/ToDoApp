@@ -45,7 +45,7 @@ Este proyecto fue creado como parte de una práctica técnica para fortalecer ha
 - git clone https://github.com/jrem08/ToDoApp.git
 
 ### Entra al proyecto
-- cd todo-list-app
+- cd Actividad-02
 
 ### Instala las dependencias
 - npm install
