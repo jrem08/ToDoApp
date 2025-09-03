@@ -7,13 +7,11 @@
 
 /* Fuente y fondo general */
 body {
-  font-family: 'trebuchet MS', sans-serif;
-  background: linear-gradient(135deg, #f0f2f5, #d6e4f0);
-  color: #333;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
+ text-align: center;
+ display: flex;
   justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* Contenedor principal */
@@ -30,11 +28,9 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 1.5rem;
-  color: #0a0a0a;
+  color: #eb0101;
   font-family: 'fantasy', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weighter;
-  font-style: normal;
+  font-style: cursive;
 }
 
 
@@ -44,41 +40,19 @@ form {
   gap: 10px;
   margin-bottom: 1.5rem;
   font-family: "cursive", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: wieghter;
-  font-style: normal;
+  font-style: italic;
 }
 
-
-input[type="text"] {
-  flex: 1;
-  padding: 0.8rem 1rem;
-  border: 2px solid #ccc;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-input[type="text"]:focus {
-  outline: none;
-  border-color: #3498db;
-}
 
 button {
   background-color: #0acc2a;
   border: none;
   color: white;
   padding: 0.8rem 1.2rem;
-  border-radius: 8px;
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  background-color: #2980b9;
-}
 
 /* Lista de tareas */
 ul {
@@ -130,9 +104,6 @@ li button {
   transition: color 0.3s ease;
 }
 
-li button:hover {
-  color: #c0392b;
-}
 
 /* Estadísticas */
 .stats {
